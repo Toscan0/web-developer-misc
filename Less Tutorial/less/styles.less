@@ -1,0 +1,35 @@
+// Vars
+@backgroundColor: grey;
+@fontFamily: Tahoma;
+@primaryColor: #3b5998;
+@secondaryColor: #20B2AA;
+@lineHeight: 1px + 1px;
+@whiteColor: #fff;
+
+body {
+	font-family: @fontFamily
+	background: backgroundColor;
+	line-height: lineHeight
+}
+
+h1 {
+	.border
+}
+
+.primary-text {
+	color: @primaryColor;
+}
+
+.btn {
+	padding: 10px 15px;
+	border: 0;
+}
+
+.primary-btn:extend(.btn) {
+	@background: @primaryColor;
+	color: #whiteColor;
+}
+
+.border {
+	
+}
